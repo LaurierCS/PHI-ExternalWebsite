@@ -1,0 +1,8 @@
+html {
+    /*If default font-size is 16px; 1 rem = 10 px*/
+    font-size: 62.5%;
+}
+body {
+    /*Make default font-size bigger. If default font-size is 16px; 1.6 rem = 16 px*/
+    font: 1.1rem $fallback_fonts;
+}
