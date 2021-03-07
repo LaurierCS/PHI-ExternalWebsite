@@ -9,7 +9,7 @@ const Routes = () => {
             <Switch>
                 <Route path="/" exact component={Body} />
             </Switch>
-            {<Footer />}
+            {/* {<Footer />} */}
             <Switch>
                 <Route path="/" exact component={Footer} />
             </Switch>
