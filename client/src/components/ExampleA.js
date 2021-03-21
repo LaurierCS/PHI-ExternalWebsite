@@ -1,6 +1,6 @@
 import React from "react";
 import history from "../browserHistory";
-const Body = () => {
+const ExampleA = () => {
     return (
         <h1
             className="mattIsCool"
@@ -8,9 +8,9 @@ const Body = () => {
                 history.push("/bye");
             }}
         >
-            Matt Is Cool
+            ExampleA
         </h1>
     );
 };
 
-export default Body;
+export default ExampleA;
