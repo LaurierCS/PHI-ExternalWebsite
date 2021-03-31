@@ -8,7 +8,7 @@ const App = () => {
                 history.push("/bye");
             }}
         >
-            Matt Is Cool
+            {/* Matt Is Cool */}
         </h1>
     );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-
+import Footer from './Footer';
 import Body from "./Body";
 const Routes = () => {
     return (
@@ -9,7 +9,10 @@ const Routes = () => {
             <Switch>
                 <Route path="/" exact component={Body} />
             </Switch>
-            {/* <Footer /> */}
+            {/* {<Footer />} */}
+            <Switch>
+                <Route path="/" exact component={Footer} />
+            </Switch>
         </React.Fragment>
     );
 };
