@@ -366,6 +366,32 @@ body {
 .header-container {
   background-color: #0e3658;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+.FAQ{
+  color:#023047;
+  font-size :64px;
+  font-weight: 300;
+  font-family: 'Rubik',sans-serif;
+  margin-left:68px ;
+  margin-top:58px;
+}
+.Member{
+  font-family: 'Rubik',sans-serif;
+  font-weight: 300;
+  font-style:normal;
+  font-size:36px;
+  color:#FFFFFF;
+  margin-left:68px;
+  margin-top:51px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  width: 1312px;
+  height: 45px;
+  background-color:#2C3844;
+
+
+}
 
 .nav-header {
   display: flex;
